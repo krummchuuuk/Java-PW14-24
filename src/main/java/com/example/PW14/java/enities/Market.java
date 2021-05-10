@@ -54,4 +54,9 @@ public class Market {
     public Set<Product> getProducts() {
         return products;
     }
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return getId() + getName() + getAddress();
+    }
 }

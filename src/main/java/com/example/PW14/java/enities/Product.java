@@ -10,8 +10,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import org.hibernate.Hibernate;
-
 @Entity
 @Table(name="products_one2many")
 public class Product {
@@ -52,5 +50,9 @@ public class Product {
     }
     public int getMarketID() {
         return market.getId();
+    }
+    @Override
+    public String toString() {
+        return getId() + " " + getName() + " " + getPrice() + " " +getMarketID() + "</br>";
     }
 }
