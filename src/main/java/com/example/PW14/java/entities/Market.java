@@ -1,4 +1,6 @@
-package com.example.PW14.java.enities;
+package com.example.PW14.java.entities;
+
+import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -6,32 +8,31 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="products_one2many")
-public class Product {
+@Table(name="markets_one2many")
+public class Market {
     @Id 
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
     @Column(name = "name")
     private String name;
-    @Column(name = "price")
-    private int price;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="market_id")
-    private Market market;
+    @Column(name = "address")
+    private String address;
+    @OneToMany(mappedBy="market", fetch = FetchType.LAZY)
+    private Set<Product> products;
 
-    public Product(String name, int price, Market store) {
+    public Market(String name, String address) {
         this.name = name;
-        this.price = price;
-        this.market = store;
+        this.address = address;
     }
-    public Product() {}
-    public void setPrice(int price) {
-        this.price = price;
+
+    public Market() {}
+
+    public void setAddress(String address) {
+        this.address = address;
     }
     public void setName(String name) {
         this.name = name;
@@ -39,8 +40,8 @@ public class Product {
     public void setId(int id) {
         this.id = id;
     }
-    public int getPrice() {
-        return price;
+    public String getAddress() {
+        return address;
     }
     public String getName() {
         return name;
@@ -48,11 +49,11 @@ public class Product {
     public int getId() {
         return id;
     }
-    public int getMarketID() {
-        return market.getId();
+    public Set<Product> getProducts() {
+        return products;
     }
     @Override
     public String toString() {
-        return getId() + " " + getName() + " " + getPrice() + " " +getMarketID() + "</br>";
+        return getId() + " " + getName() + " " + getAddress() + "</br>";
     }
 }
