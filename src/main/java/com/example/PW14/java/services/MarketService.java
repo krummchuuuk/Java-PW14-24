@@ -7,8 +7,12 @@ import javax.transaction.Transactional;
 import com.example.PW14.java.entities.Market;
 import com.example.PW14.java.repositories.MarketRepository;
 
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import lombok.extern.slf4j.Slf4j;
 
 interface marketService {
     public void createNewMarket(String name, String address);
@@ -17,19 +21,23 @@ interface marketService {
 }
 
 @Service
+@Slf4j
 public class MarketService implements marketService{
     @Autowired
     MarketRepository marketRepo;
     @Autowired
     ProductService productService;
+    private static final Logger log = LoggerFactory.getLogger(MarketService.class);
     
     @Transactional
     public void createNewMarket(String name, String address) {
+        log.info("Save market with name {}", name);
         marketRepo.save(new Market(name, address));
     }
 
     @Transactional
     public void closeAnyMarket(String name) {
+        log.info("Save market with name {}", name);
         marketRepo.deleteByName(name);
     }
 
@@ -41,17 +49,21 @@ public class MarketService implements marketService{
             for (int i=0;i<market_list.size();i++) {
             result += market_list.get(i).getId() + " " + market_list.get(i).getName() + " " + market_list.get(i).getAddress() +"</br>";
             }
+            log.info("Show all markets");
             return result;
         }
         else {
             List<Market> market_list;
             if (by == "id") {
+                log.info("Show market where id is  {}", criteria);
                 return marketRepo.findById(Integer.parseInt(criteria)).toString();
             }
             else if (by == "name") {
+                log.info("Show market where name is  {}", criteria);
                 market_list = marketRepo.findByName(criteria);
             }
             else if (by == "address") {
+                log.info("Show market where address is  {}", criteria);
                 market_list = marketRepo.findByAddress(criteria);
             }
             else {
