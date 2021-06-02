@@ -26,6 +26,9 @@ dependencies {
 	implementation group: 'javax.mail', name: 'javax.mail-api', version: '1.6.2'
     implementation group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
 	implementation group: 'com.opencsv', name: 'opencsv', version: '5.4'
+	implementation group: 'org.springframework.security', name: 'spring-security-core', version: '5.5.0'
+	implementation group: 'org.springframework.security', name: 'spring-security-web', version: '5.5.0'
+	implementation group: 'org.springframework.security', name: 'spring-security-config', version: '5.5.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

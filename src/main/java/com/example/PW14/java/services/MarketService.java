@@ -52,6 +52,11 @@ public class MarketService implements marketService{
     }
 
     @Transactional
+    public Market findById(int id) {
+        return marketRepo.findById(id);
+    }
+
+    @Transactional
     public String showByCriteria(String by, String criteria) {
         if (criteria == null) {
             List<Market>market_list = marketRepo.findAll();
