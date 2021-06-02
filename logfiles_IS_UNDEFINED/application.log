@@ -1919,3 +1919,998 @@ java.lang.NullPointerException: null
 97045 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
 97052 [restartedMain] INFO  com.example.PW14.java.Application – Started Application in 1.436 seconds (JVM running for 97.276)
 97058 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener – Condition evaluation unchanged
+285308 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+285308 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+285309 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+285464 [http-nio-8080-exec-1] INFO  c.e.P.java.services.MarketService – Show all markets
+285465 [http-nio-8080-exec-1] INFO  c.e.PW14.java.aspects.TimeLogAspect – New update in Wed Jun 02 14:44:45 MSK 2021
+435551 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor – Shutting down ExecutorService 'applicationTaskExecutor'
+435678 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+435678 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+435839 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+435841 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+435842 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+435854 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+436049 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+436050 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+436051 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+436051 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+436066 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+436067 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 383 ms
+436127 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+436198 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+436295 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+436296 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+436456 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+436533 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+436666 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+436674 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+436701 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+436705 [restartedMain] INFO  com.example.PW14.java.Application – Started Application in 1.065 seconds (JVM running for 436.929)
+436708 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener – Condition evaluation unchanged
+696616 [Thread-13] INFO  o.s.s.c.ThreadPoolTaskExecutor – Shutting down ExecutorService 'applicationTaskExecutor'
+696737 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+696738 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+696887 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+696888 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+696889 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+696899 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+697133 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+697134 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+697134 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+697135 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+697146 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+697146 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 403 ms
+697220 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+697299 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+697402 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+697403 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+697532 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskedService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskedService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d0e7e69]
+697534 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+697544 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+697558 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskedService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskedService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d0e7e69]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskedService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d0e7e69]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OwnerService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OwnerService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 30 common frames omitted
+707023 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+707023 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+707190 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+707191 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+707192 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+707201 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+707355 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+707356 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+707357 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+707357 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+707371 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+707371 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 342 ms
+707450 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+707514 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+707611 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+707612 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+707749 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskedService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskedService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7d218126]
+707751 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+707757 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+707761 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskedService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskedService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7d218126]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskedService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7d218126]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OwnerService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OwnerService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 30 common frames omitted
+814434 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+814434 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+814592 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+814593 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+814594 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+814603 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+814776 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+814778 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+814778 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+814779 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+814792 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+814793 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 354 ms
+814857 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+814923 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+815011 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+815011 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+815156 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@69ec0d0c]
+815158 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+815164 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+815168 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@69ec0d0c]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@69ec0d0c]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OwnerService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OwnerService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 30 common frames omitted
+1081137 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1081138 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1081312 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1081317 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+1081321 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1081346 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+1081636 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1081640 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1081643 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1081645 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1081677 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1081678 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 535 ms
+1081825 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1081956 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1082121 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1082121 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1082304 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@9c553a8]
+1082307 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1082325 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1082331 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@9c553a8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@9c553a8]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OwnerService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OwnerService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 30 common frames omitted
+1118839 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1118839 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1118993 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1118994 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+1118995 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1119001 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+1119177 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1119178 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1119178 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1119178 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1119191 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1119191 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 348 ms
+1119264 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1119333 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1119450 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1119451 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1119594 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@836102f]
+1119596 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1119602 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1119606 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@836102f]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@836102f]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OwnerService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OwnerService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 30 common frames omitted
+1191181 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1191182 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1191323 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1191324 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+1191325 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1191331 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+1191483 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1191485 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1191485 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1191485 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1191496 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1191496 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 309 ms
+1191576 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1191639 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1191755 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1191756 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1191868 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@796f98be]
+1191870 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1191875 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1191879 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@796f98be]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.PW14.java.services.TaskService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@796f98be]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OwnerService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OwnerService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 30 common frames omitted
+1218371 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1218371 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1218507 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1218508 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+1218509 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1218518 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+1218691 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1218692 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1218694 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1218694 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1218711 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1218712 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 338 ms
+1218782 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1218852 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1218967 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1218967 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1219156 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1219249 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+1219392 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+1219399 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1219415 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1219419 [restartedMain] INFO  com.example.PW14.java.Application – Started Application in 1.069 seconds (JVM running for 1219.642)
+1219420 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener – Condition evaluation unchanged
+1373111 [Thread-18] INFO  o.s.s.c.ThreadPoolTaskExecutor – Shutting down ExecutorService 'applicationTaskExecutor'
+1373252 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1373252 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1373438 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1373439 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+1373440 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1373450 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+1373646 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1373647 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1373648 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1373649 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1373660 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1373661 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 399 ms
+1373717 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1373780 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1373894 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1373895 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1374063 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1374159 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+1374314 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+1374320 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1374352 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1374356 [restartedMain] INFO  com.example.PW14.java.Application – Started Application in 1.133 seconds (JVM running for 1374.58)
+1374358 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener – Condition evaluation unchanged
+1476939 [Thread-41] INFO  o.s.s.c.ThreadPoolTaskExecutor – Shutting down ExecutorService 'applicationTaskExecutor'
+1477127 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1477129 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1477310 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1477312 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+1477313 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1477324 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+1477576 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1477578 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1477579 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1477579 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1477591 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1477592 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 458 ms
+1477616 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.management.MBeanServer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+1477617 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1477624 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1477635 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mBeanServer in com.example.PW14.java.controllers.HomeController required a bean of type 'javax.management.MBeanServer' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'javax.management.MBeanServer' in your configuration.
+
+1612358 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1612358 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1612513 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1612515 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+1612516 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1612525 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+1612711 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1612711 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1612712 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1612713 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1612724 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1612725 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 362 ms
+1612811 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1612896 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1613006 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1613006 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1613161 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+1613163 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1613169 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1613173 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at java.management/com.sun.jmx.mbeanserver.Introspector.checkCompliance(Introspector.java:177)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:313)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at com.example.PW14.java.configs_db.Config.mBeanServer(Config.java:52)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$b33633c4.CGLIB$mBeanServer$4(<generated>)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$b33633c4$$FastClassBySpringCGLIB$$c93aac13.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$b33633c4.mBeanServer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+1666714 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 21216 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1666714 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1666829 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1666831 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+1666832 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1666840 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+1666976 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1666977 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1666977 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1666977 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+1666988 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1666988 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 271 ms
+1667051 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1667112 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1667195 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1667195 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1667301 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+1667303 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1667310 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1667314 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$dda39353 is not a JMX compliant MXBean)
+	at java.management/com.sun.jmx.mbeanserver.Introspector.checkCompliance(Introspector.java:177)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:313)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at com.example.PW14.java.configs_db.Config.mBeanServer(Config.java:52)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$b33633c4.CGLIB$mBeanServer$4(<generated>)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$b33633c4$$FastClassBySpringCGLIB$$c93aac13.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$b33633c4.mBeanServer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+1096 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 23436 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1103 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1276 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1278 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2107 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2128 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2134 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2197 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+4031 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+4046 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+4047 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+4048 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+4186 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+4189 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2910 ms
+4818 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+4881 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.30.Final
+5123 [restartedMain] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+6322 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+7294 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7304 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+8341 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant MXBean)
+8353 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+8372 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+8397 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$280f1858 is not a JMX compliant MXBean)
+	at java.management/com.sun.jmx.mbeanserver.Introspector.checkCompliance(Introspector.java:177)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:313)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at com.example.PW14.java.configs_db.Config.mBeanServer(Config.java:52)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$4b3417be.CGLIB$mBeanServer$5(<generated>)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$4b3417be$$FastClassBySpringCGLIB$$d4ec7446.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$4b3417be.mBeanServer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+1087 [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 23628 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+1094 [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1235 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1236 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2086 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2113 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2118 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2200 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+3799 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3821 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3824 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3831 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+3983 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3985 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2747 ms
+4615 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+4680 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.30.Final
+4926 [restartedMain] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5768 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+6623 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6647 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+7440 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant MXBean)
+7447 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+7477 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+7516 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$c109f6a7 is not a JMX compliant MXBean)
+	at java.management/com.sun.jmx.mbeanserver.Introspector.checkCompliance(Introspector.java:177)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:313)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at com.example.PW14.java.configs_db.Config.mBeanServer(Config.java:52)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$82ba1cc1.CGLIB$mBeanServer$4(<generated>)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$82ba1cc1$$FastClassBySpringCGLIB$$dbf49787.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$82ba1cc1.mBeanServer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+933  [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 23901 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+938  [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1033 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1042 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2092 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2132 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2137 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2248 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+3647 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3677 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3678 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3679 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+3795 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3797 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2753 ms
+4380 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+4486 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.30.Final
+4698 [restartedMain] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5383 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+6109 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6122 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6816 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant MXBean)
+6822 [restartedMain] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+6865 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+6897 [restartedMain] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'mBeanServer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.PW14.java.Application.main(Application.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mBeanServer' defined in class path resource [com/example/PW14/java/configs_db/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.management.MBeanServer]: Factory method 'mBeanServer' threw exception; nested exception is javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant MXBean)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: javax.management.NotCompliantMBeanException: MBean class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 does not implement DynamicMBean, and neither follows the Standard MBean conventions (javax.management.NotCompliantMBeanException: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant Standard MBean) nor the MXBean conventions (javax.management.NotCompliantMBeanException: com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856: Class com.example.PW14.java.services.TaskService$$EnhancerBySpringCGLIB$$db6b9856 is not a JMX compliant MXBean)
+	at java.management/com.sun.jmx.mbeanserver.Introspector.checkCompliance(Introspector.java:177)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:313)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at com.example.PW14.java.configs_db.Config.mBeanServer(Config.java:52)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$dcdedd15.CGLIB$mBeanServer$3(<generated>)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$dcdedd15$$FastClassBySpringCGLIB$$da72e132.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.example.PW14.java.configs_db.Config$$EnhancerBySpringCGLIB$$dcdedd15.mBeanServer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+971  [restartedMain] INFO  com.example.PW14.java.Application – Starting Application using Java 15.0.2 on crat with PID 24335 (/home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java/bin/main started by krummchuuuk in /home/krummchuuuk/Рабочий стол/ВУЗ/Шаблоны программных платформ языка Java/PW14.java)
+982  [restartedMain] INFO  com.example.PW14.java.Application – No active profile set, falling back to default profiles: default
+1192 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1194 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2102 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2121 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2125 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2185 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+3614 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3634 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3635 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3638 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.45]
+3759 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3760 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2563 ms
+4262 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+4345 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.4.30.Final
+4582 [restartedMain] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5304 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+6114 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6127 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+7005 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+7301 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor – Initializing ExecutorService 'applicationTaskExecutor'
+7904 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+7924 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+8010 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+8032 [restartedMain] INFO  com.example.PW14.java.Application – Started Application in 7.529 seconds (JVM running for 8.405)
+31154 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+31155 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+31157 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+31412 [task-1] INFO  c.e.PW14.java.aspects.TimeLogAspect – New update in Wed Jun 02 15:24:55 MSK 2021
+31456 [task-1] INFO  c.e.PW14.java.aspects.TimeLogAspect – New update in Wed Jun 02 15:24:55 MSK 2021
+31460 [task-1] INFO  c.e.PW14.java.aspects.TimeLogAspect – New update in Wed Jun 02 15:24:55 MSK 2021

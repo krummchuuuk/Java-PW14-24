@@ -46,6 +46,10 @@ public class MarketService implements marketService{
         log.info("Save market with name {}", name);
         marketRepo.deleteByName(name);
     }
+    @Transactional
+    public List<Market> getAll() {
+        return marketRepo.findAll();
+    }
 
     @Transactional
     public String showByCriteria(String by, String criteria) {

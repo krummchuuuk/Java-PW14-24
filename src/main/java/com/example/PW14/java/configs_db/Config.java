@@ -14,8 +14,15 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 
+import javax.management.InstanceAlreadyExistsException;
+import javax.management.MBeanServer;
+import javax.management.ObjectName;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
+
+import com.example.PW14.java.services.TaskedCSVService;
+
+import java.lang.management.ManagementFactory;
 import java.util.Properties;
 
 @Configuration
@@ -31,6 +38,22 @@ public class Config {
         properties.put("hibernate.dialect", environment.getProperty("hibernate.dialect"));
         properties.put("hibernate.show_sql", environment.getProperty("hibernate.show_sql"));
         return properties;
+    }
+
+    @Bean
+    public ObjectName taskedServiceName() throws javax.management.MalformedObjectNameException {
+        return new ObjectName("services.taskedService:name=tasked");
+    }
+
+    @Bean
+    MBeanServer mBeanServer (TaskedCSVService taskedCSVService) throws javax.management.MalformedObjectNameException, javax.management.InstanceAlreadyExistsException, javax.management.MBeanRegistrationException, javax.management.NotCompliantMBeanException {
+        MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
+        try {
+            mbs.registerMBean(taskedCSVService, taskedServiceName());
+        } catch (InstanceAlreadyExistsException exception) {
+            return mbs;
+        }
+        return mbs;
     }
 
     @Bean

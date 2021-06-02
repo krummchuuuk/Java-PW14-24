@@ -47,6 +47,11 @@ public class ProductService implements productService {
     }
 
     @Transactional
+    public List<Product> getAll() {
+        return productRepo.findAll();
+    }
+
+    @Transactional
     public String showByCriteria(String by, String criteria) {
         if (criteria == null) {
             List<Product>products_list = productRepo.findAll();
