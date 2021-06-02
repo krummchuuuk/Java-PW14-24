@@ -10,6 +10,7 @@ import com.example.PW14.java.repositories.MarketRepository;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
@@ -27,11 +28,16 @@ public class MarketService implements marketService{
     MarketRepository marketRepo;
     @Autowired
     ProductService productService;
+    @Autowired
+    MailService mService;
+
     private static final Logger log = LoggerFactory.getLogger(MarketService.class);
     
     @Transactional
+    @Async
     public void createNewMarket(String name, String address) {
         log.info("Save market with name {}", name);
+        mService.sendMessage("New object was created!", "You created new market " + name + " with address = " + address);
         marketRepo.save(new Market(name, address));
     }
 

@@ -29,11 +29,14 @@ public class ProductService implements productService {
     ProductRepository productRepo;
     @Autowired
     MarketRepository marketRepository;
+    @Autowired
+    MailService mService;
     private static final Logger log = LoggerFactory.getLogger(MarketService.class);
     
     @Transactional
     public void createNewProduct(String name, int price, int id) {
         log.info("Save product with name {}", name);
+        mService.sendMessage("New object was created!", "You created new product " + name + " with price = " + price);
         productRepo.save(new Product(name, price, getByID(id)));
     }
 
